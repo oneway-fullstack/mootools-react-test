@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import ReactTalk from './components/ReactTalk';
 
-const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+const newDiv = ReactDOM.createRoot(
+  document.getElementById('new') as HTMLElement
 );
-root.render(
+
+newDiv.render(
   <React.StrictMode>
-    <App />
+    <ReactTalk/>
   </React.StrictMode>
 );
 
