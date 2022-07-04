@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './index.css';
 
-function ReactTalk(){
+const ReactTalk  = () => {
   const [label, setLabel] = useState('React');
   const handleClick = () =>{
     window.dispatchEvent(new CustomEvent('ReactTalk', {detail: 'React Talk :' + label}));

@@ -1,6 +1,6 @@
 (function() {
     'use strict';
-    var funComponent;// modify
+    var funComponent;// add
     var MyFunComponent = new Class({
         Extends: Rpm.WebComponent,
         componentName: 'MyFunComponent',
